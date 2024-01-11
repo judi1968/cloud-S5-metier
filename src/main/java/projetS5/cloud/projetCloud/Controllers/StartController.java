@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class StartController {
-    @GetMapping("/")
+    @GetMapping("/initialize")
     public Map initializer() {
 		Map resultat = new HashMap();
 		int status = 0;
